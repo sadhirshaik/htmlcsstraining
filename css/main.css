@@ -1,0 +1,58 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+.container {
+    width: 100%;
+}
+
+section {
+    display: block;
+    width: 100%;
+    border: 2px solid black;
+    margin: 10px 5px 10px 5px;
+    padding: 0px;
+}
+
+p {
+    padding: 30px;
+}
+
+h4 {
+    float: right;
+    clear: both;
+    text-align: center;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+@media(min-width:992px) {
+    section {
+        float: left;
+    }
+    .desktop {
+        width: 32.3333%;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .tablet {
+        width: 48%;
+    }
+    .box3 {
+        width: 97.2%;
+    }
+    section {
+        float: left;
+    }
+}
